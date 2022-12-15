@@ -5,17 +5,22 @@
   margin-top: 40px;
 }
 
+.header_logo {
+  width: 145px;
+}
+
 .navbar ul {
   display: flex;
 }
 
 .navbar li {
   list-style: none;
-  font-size: 24px;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .navbar li:nth-of-type(2n) {
-  margin-left: 57px;
+  margin-left: 10px;
 }
 
 .navbar li a {
@@ -26,4 +31,19 @@
 .navbar li a:active,
 .navbar li a:focus {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 375px) {
+  .header_logo {
+    width: 210px;
+  }
+
+  .navbar li {
+    font-size: 24px;
+    text-transform: none;
+  }
+
+  .navbar li:nth-of-type(2n) {
+    margin-left: 57px;
+  }
 }
