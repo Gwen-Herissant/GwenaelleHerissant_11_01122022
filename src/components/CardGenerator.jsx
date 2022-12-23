@@ -28,10 +28,7 @@ export default function CardsGenerator() {
 
   return (
     <div className="card-generator">
-      {/* <ul>
-        {data && data.map((item, index) => <li key={index}>{item.title}</li>)}
-      </ul> */}
-      {data && data.map((item, index) => <Card key={index} title={item.title} id={item.id} />)}
+      {data && data.map((item, index) => <Card key={index} logement={item} />)}
     </div>
   )
 
