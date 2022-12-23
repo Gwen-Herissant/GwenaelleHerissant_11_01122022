@@ -1,0 +1,35 @@
+.footer {
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-height: 13.0625rem;
+  background-color: #000;
+  padding: 5.125rem 0 3.875rem;
+  margin-top: 4.375rem;
+}
+
+.footer_logo {
+  margin-left: 20%;
+  margin-bottom: 1.75rem;
+}
+
+.footer_text {
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 4.125rem 0 1.8125rem;
+  }
+
+  .footer_logo {
+    margin-left: 30%;
+  }
+
+  .footer_text {
+    font-size: 1rem;
+  }
+}

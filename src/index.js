@@ -10,6 +10,7 @@ import {
 import Root from './routes/Root';
 import ErrorPage from './pages/Error-page';
 import About from './pages/About-page';
+import Logement from './pages/Logement';
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <About />,
+      },
+      {
+        path: '/logement/:id',
+        element: <Logement />,
       }
     ],
   },
