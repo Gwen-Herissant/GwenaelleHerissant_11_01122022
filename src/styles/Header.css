@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .header_logo {
-  width: 145px;
+  width: 9.0625rem;
 }
 
 .navbar ul {
@@ -15,12 +15,12 @@
 
 .navbar li {
   list-style: none;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-transform: uppercase;
 }
 
 .navbar li:nth-of-type(2n) {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .navbar li a {
@@ -33,17 +33,17 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
   .header_logo {
-    width: 210px;
+    width: 13.125rem;
   }
 
   .navbar li {
-    font-size: 24px;
+    font-size: 1.5rem;
     text-transform: none;
   }
 
   .navbar li:nth-of-type(2n) {
-    margin-left: 57px;
+    margin-left: 3.5625rem;
   }
 }

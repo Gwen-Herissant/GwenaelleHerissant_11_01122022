@@ -2,7 +2,7 @@
 
 body {
   margin: 0 auto;
-  padding: 0px 20px;
+  padding: 0 1.25rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
@@ -24,8 +24,8 @@ a {
   color: #ff6060;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768px) {
   body {
-    padding: 0px 100px;
+    padding: 0 6.25rem;
   }
 }
