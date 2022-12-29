@@ -1,0 +1,10 @@
+.about_cover {
+  height: 223px;
+  background-image: url(../assets/images/about-cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center 41%;
+  background-size: cover;
+  border-radius: 25px;
+  filter: brightness(0.7);
+  margin: 50px 0 0;
+}
