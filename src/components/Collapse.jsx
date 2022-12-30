@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../styles/Collapse.css";
 import arrow from "../assets/images/collapse-arrow.svg"
 
