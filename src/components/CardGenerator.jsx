@@ -1,34 +1,22 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import '../styles/Card.css'
+import { getData } from "../service/dataManager";
 
 export default function CardsGenerator() {
 
-  const getData = () => {
-    fetch('/data/logements.json', {
-      headers : {
-        'Content-type' : 'application/json',
-        'Accept': 'application/json'
-      }
-    })
-    .then(function(response) {
-      console.log(response)
-      return response.json();
-    })
-    .then(function(myJson) {
-      console.log(myJson);
-      setData(myJson)
-    });
-  }
   useEffect(() => {
     getData()
+    .then(function(myJson) {
+      setData(myJson)
+    });
   }, [])
 
   const [data, setData] = useState([]);
 
   return (
     <div className="card-generator">
-      {data && data.map((item, index) => <Card key={index} logement={item} />)}
+      {data && data.map((item) => <Card key={`logement-${item.id}`} logement={item} />)}
     </div>
   )
 
