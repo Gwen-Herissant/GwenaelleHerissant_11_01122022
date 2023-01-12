@@ -6,7 +6,7 @@
   width: auto;
   height: 15.9375rem;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   border-radius: 0.625rem;
   padding: 0.9375rem 1.25rem;
   margin-bottom: 1.25rem;

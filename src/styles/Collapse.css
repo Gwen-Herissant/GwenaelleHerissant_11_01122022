@@ -18,11 +18,11 @@
   padding: 9px 32px 9px 19px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .collapse-header p {
-  font-size: 24px;
+  font-size: 13px;
   color: #fff;
   margin: 0;
 }
@@ -34,11 +34,28 @@
 
 .collapse-content {
   background-color: #f6f6f6;
-  padding: 30px 27px 19px 18px;
+  padding: 17px 6px 19px 11px;
 }
 
 .collapse-content p {
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 400;
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .collapse-header {
+    margin-top: 30px;
+  }
+
+  .collapse-content {
+    padding: 30px 27px 19px 18px;
+  }
+  .collapse-header p {
+    font-size: 24px;
+  }
+
+  .collapse-content p {
+    font-size: 24px;
+  }
 }

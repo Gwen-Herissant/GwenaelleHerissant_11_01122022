@@ -5,7 +5,7 @@ import Home from './pages/Homepage';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
+  // Route,
 } from 'react-router-dom';
 import Root from './routes/Root';
 import ErrorPage from './pages/Error-page';
