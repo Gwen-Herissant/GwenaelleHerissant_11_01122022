@@ -1,3 +1,7 @@
+/* Styles for Logement Page */
+
+/* Mobile styles */
+
 .logement_details--top-left h2,
 .logement_details--top-left p {
   font-weight: 500;
@@ -77,6 +81,8 @@
 .logement .collapse-content:nth-of-type(2) span {
   display: block;
 }
+
+/* Desktop styles */
 
 @media screen and (min-width: 768px) {
   .logement_details {

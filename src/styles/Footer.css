@@ -1,3 +1,7 @@
+/* Styles for Footer */
+
+/* Mobile styles */
+
 .footer {
   position: absolute;
   left: 0;
@@ -19,6 +23,8 @@
   color: #fff;
   font-size: 0.75rem;
 }
+
+/* Desktop styles */
 
 @media screen and (min-width: 768px) {
   .footer {

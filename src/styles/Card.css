@@ -1,3 +1,7 @@
+/* Styles for Homepage grid and cards */
+
+/* Mobile styles */
+
 .card-generator a {
   text-decoration: none;
 }
@@ -26,18 +30,19 @@
   margin: 0px;
 }
 
+/* Desktop styles */
+
 @media screen and (min-width: 768px) {
   .card-generator {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3.125rem 3.75rem;
+    gap: 2% 5%;
     background-color: #f6f6f6;
     border-radius: 1.5625rem;
     padding: 3.5rem 3.125rem;
   }
 
   .card {
-    width: 18.75rem;
     height: 18.75rem;
     padding: 1.25rem;
     margin: 0;

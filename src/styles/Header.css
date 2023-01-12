@@ -1,3 +1,7 @@
+/* Styles for Header */
+
+/* Mobile styles */
+
 .header {
   display: flex;
   align-items: center;
@@ -32,6 +36,8 @@
 .navbar li a:focus {
   text-decoration: underline;
 }
+
+/* Desktop styles */
 
 @media screen and (min-width: 768px) {
   .header_logo {

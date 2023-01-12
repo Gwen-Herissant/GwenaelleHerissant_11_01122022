@@ -1,3 +1,7 @@
+/* Styles for Collapse component */
+
+/* Mobile styles */
+
 .collapse-body .collapse-content {
   display: none;
 }
@@ -42,6 +46,8 @@
   font-weight: 400;
   margin: 0;
 }
+
+/* Desktop styles */
 
 @media screen and (min-width: 768px) {
   .collapse-header {

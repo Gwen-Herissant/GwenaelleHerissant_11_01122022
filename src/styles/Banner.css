@@ -1,3 +1,6 @@
+/* Styles for Homepage Banner */
+
+/* Mobile styles */
 .banner {
   display: flex;
   align-items: center;
@@ -7,6 +10,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
   border-radius: 0.625rem;
   margin: 1.1875rem 0px 1.375rem 0px;
 }
@@ -17,6 +22,8 @@
   font-weight: 500;
   margin-left: 1rem;
 }
+
+/* Desktop styles */
 
 @media screen and (min-width: 768px) {
   .banner {

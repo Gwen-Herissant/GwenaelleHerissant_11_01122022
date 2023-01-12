@@ -1,7 +1,12 @@
+/* Styles for Error Page */
+
+/* Mobile styles */
+
 #error-page h1 {
-  font-size: 96rem;
+  font-size: 96px;
   font-weight: 700;
   margin-bottom: 0.6875rem;
+  margin-top: 200px;
 }
 
 #error-page p {
@@ -17,16 +22,18 @@
   text-align: center;
 }
 
+/* Desktop styles */
+
 @media screen and (min-width: 768px) {
   #error-page h1 {
     font-size: 18rem;
-    margin-bottom: 4.125rem;
-    margin-top: 0;
+    margin-bottom: 4%;
+    margin-top: 4%;
   }
 
   #error-page p {
     font-size: 2.25rem;
-    margin-bottom: 11.375rem;
+    margin-bottom: 8%;
   }
 
   #error-page a {
