@@ -1,5 +1,9 @@
 /* Styles for About Page */
 
+.about_container {
+  margin-bottom: 4rem;
+}
+
 .about_cover {
   height: 223px;
   background-image: url(../assets/images/about-cover.jpg);

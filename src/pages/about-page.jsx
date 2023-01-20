@@ -3,7 +3,7 @@ import '../styles/About.css'
 
 export default function About() {
   return (
-    <div>
+    <div className='about_container'>
       <div className="about_cover"></div>
       <Collapse 
         title="Fiabilité" 
