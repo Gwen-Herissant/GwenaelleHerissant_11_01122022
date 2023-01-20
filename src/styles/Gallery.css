@@ -5,23 +5,23 @@
 .gallery-container {
   position: relative;
   width: 100%;
-  height: 255px;
-  margin-top: 25px;
-  margin-bottom: 30px;
+  height: 15.9375rem;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.875rem;
 }
 
 .gallery_img {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .gallery_arrow {
-  width: 13px;
-  height: 20px;
+  width: 0.8125rem;
+  height: 1.25rem;
   position: absolute;
   top: 50%;
   z-index: 2;
@@ -34,25 +34,25 @@
 }
 
 .gallery_arrow-left {
-  left: 5px;
-  transform: translateY(-10px);
+  left: 0.3125rem;
+  transform: translateY(-0.625rem);
 }
 
 .gallery_arrow-right {
-  right: 5px;
-  transform: rotate(180deg) translateY(10px);
+  right: 0.3125rem;
+  transform: rotate(180deg) translateY(0.625rem);
 }
 
 .gallery_bullet-points {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 
 .gallery_single-bullet {
-  width: 8px;
+  width: 0.5rem;
   fill: #e3e3e3;
-  margin-right: 6px;
+  margin-right: 0.375rem;
   cursor: pointer;
 }
 
@@ -66,34 +66,34 @@
 
 @media screen and (min-width: 768px) {
   .gallery-container {
-    height: 415px;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    height: 25.9375rem;
+    margin-top: 2.1875rem;
+    margin-bottom: 0.625rem;
   }
   .gallery_img {
-    border-radius: 25px;
+    border-radius: 1.5625rem;
   }
   .gallery_arrow {
-    width: 48px;
-    height: 80px;
+    width: 3rem;
+    height: 5rem;
   }
 
   .gallery_arrow-left {
-    left: 23px;
-    transform: translateY(-40px);
+    left: 1.4375rem;
+    transform: translateY(-2.5rem);
   }
 
   .gallery_arrow-right {
-    right: 23px;
-    transform: rotate(180deg) translateY(40px);
+    right: 1.4375rem;
+    transform: rotate(180deg) translateY(2.5rem);
   }
 
   .gallery_bullet-points {
-    margin-top: 8px;
+    margin-top: 0.5rem;
   }
 
   .gallery_single-bullet {
-    width: 10px;
-    margin-right: 10px;
+    width: 0.625rem;
+    margin-right: 0.625rem;
   }
 }
