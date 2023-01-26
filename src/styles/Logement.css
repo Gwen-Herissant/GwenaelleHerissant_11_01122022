@@ -36,7 +36,8 @@
 }
 
 .ratings_wrapper {
-  display: block;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .ratings_wrapper svg {
