@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { getData } from "../service/dataManager";
 import Collapse from '../components/Collapse'
 import Gallery from '../components/Gallery';
-
+import { useNavigate } from "react-router-dom";
 
 export default function Logement() {
 
@@ -12,13 +12,18 @@ export default function Logement() {
 
   const [data, setData] = useState({pictures: [], tags: [], host: {}, equipments: []});
 
+  const navigate = useNavigate();
+
   useEffect(() => {
     getData()
     .then(function(myJson) {
       let logement = myJson.find(l => l.id === id);
       setData(logement)
-    });
-  }, [setData, id])
+    })
+    .catch(error => {
+      navigate("/error-data");
+    })
+  }, [setData, navigate, id])
 
   //Star ratings
   function ratings() {

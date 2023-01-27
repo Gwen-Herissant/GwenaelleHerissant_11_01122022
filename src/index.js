@@ -4,13 +4,13 @@ import './styles/index.css';
 import Home from './pages/Homepage';
 import {
   createBrowserRouter,
-  RouterProvider,
-  // Route,
+  RouterProvider
 } from 'react-router-dom';
 import Root from './routes/Root';
 import ErrorPage from './pages/Error-page';
 import About from './pages/About-page';
 import Logement from './pages/Logement';
+import ErrorData from './pages/ErrorData';
 
 
 const router = createBrowserRouter([
@@ -34,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/logement/:id',
         element: <Logement />,
+      },
+      {
+        path: '/error-data',
+        element: <ErrorData />,
       }
     ],
   },
