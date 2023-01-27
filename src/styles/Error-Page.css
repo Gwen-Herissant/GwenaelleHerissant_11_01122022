@@ -23,6 +23,11 @@
   padding-bottom: 20rem;
 }
 
+#error-page.error-data h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
 /* Desktop styles */
 
 @media screen and (min-width: 768px) {
@@ -43,5 +48,9 @@
 
   #error-page a {
     font-size: 1.125rem;
+  }
+
+  #error-page.error-data h1 {
+    font-size: 6rem;
   }
 }
