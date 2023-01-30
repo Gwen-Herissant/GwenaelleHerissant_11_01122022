@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { getData } from "../service/dataManager";
 import Collapse from '../components/Collapse'
 import Gallery from '../components/Gallery';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, redirect } from "react-router-dom";
 
 export default function Logement() {
 
@@ -19,6 +19,9 @@ export default function Logement() {
     .then(function(myJson) {
       let logement = myJson.find(l => l.id === id);
       setData(logement)
+      if(!logement) {
+        return redirect("/error-page")
+      }
     })
     .catch(error => {
       navigate("/error-data");
