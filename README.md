@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Kasa — Real Estate Rental App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern real estate rental web application built with React and React Router, as part of a front-end development training program.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+This project was completed as part of a structured front-end development curriculum. The goal was to implement the frontend of a rental platform from scratch, based on provided Figma mockups and a JSON dataset simulating an API.
 
-### `npm start`
+The focus was on building a component-based architecture with React, managing client-side navigation with React Router, and enhancing the UI with CSS animations and SASS.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Build a React application from the ground up using Create React App
+- Create reusable React components from Figma mockups
+- Set up client-side routing with React Router
+- Implement CSS animations and structure styles with SASS
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-### `npm run build`
+## Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Component-based architecture** — modular, reusable React components
+- **Client-side routing** — multi-page navigation with React Router (home, listing detail, about, 404)
+- **CSS animations** — collapsible sections and smooth transitions
+- **JSON data rendering** — dynamic display of rental listings from a local dataset
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What I Learned
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Structuring a React application with a component-based approach
+- Configuring and using React Router for navigation
+- Managing and rendering data from a JSON source in React
+- Writing modular styles with SASS in a React project
+- Bootstrapping a project with Create React App
 
-### `npm run eject`
+## Context
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is part of the **OpenClassrooms Front-End Developer** curriculum. It marks the introduction to React in the program — a significant shift from Vanilla JavaScript to a modern component-driven framework.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+The app is available at: `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Build for production:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+```
