@@ -1,5 +1,5 @@
 const getData = () => {
-  return fetch('./data/logements.json', {
+  return fetch(`${process.env.PUBLIC_URL}/data/logements.json`, {
     headers : {
       'Content-type' : 'application/json',
       'Accept': 'application/json'
