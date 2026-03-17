@@ -2,6 +2,8 @@
 
 A modern real estate rental web application built with React and React Router, as part of a front-end development training program.
 
+🔗 **[Live Demo](https://gwen-herissant.github.io/GwenaelleHerissant_11_01122022/)**
+
 ## Project Overview
 
 This project was completed as part of a structured front-end development curriculum. The goal was to implement the frontend of a rental platform from scratch, based on provided Figma mockups and a JSON dataset simulating an API.
