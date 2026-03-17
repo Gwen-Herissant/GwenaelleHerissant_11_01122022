@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import Home from './pages/Homepage';
 import {
-  createBrowserRouter,
-  RouterProvider
+  createHashRouter,
+  RouterProvider,
 } from 'react-router-dom';
 import Root from './routes/Root';
 import ErrorPage from './pages/Error-page';
@@ -13,7 +13,7 @@ import Logement from './pages/Logement';
 import ErrorData from './pages/ErrorData';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Root />,
